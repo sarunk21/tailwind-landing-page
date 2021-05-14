@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tailwindcss</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container mx-auto px-5 py-3">
+      <div class="flex justify-between items-center">
+        <a href="#" class="text-4xl">Sarunk</a>
+        <ul class="hidden md:flex">
+          <li><a href="#" class="mx-2 hover:text-gray-500">Home</a></li>
+          <li><a href="#" class="mx-2 hover:text-gray-500">About</a></li>
+          <li><a href="#" class="mx-2 hover:text-gray-500">Pricing</a></li>
+          <li><a href="#" class="mx-2 hover:text-gray-500">About Us</a></li>
+        </ul>
+        <ul class="hidden md:flex">
+          <li class="py-2 px-4 mx-3 text-lg"><a href="#">Sign Up</a></li>
+          <li
+            class="py-2 px-4 mx-3 border border-gray-50 bg-green-400 hover:bg-green-300 duration-200 rounded-md text-gray-50 text-lg">
+            <a href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="container mx-auto px-5 py-3">
+    <div class="grid grid-cols-1 lg:grid-cols-2 bg-gray-300 p-6 lg:bg-white rounded-xl">
+      <div>
+        <h1 class="text-5xl lg:text-7xl font-bold">Electronic For Everyone.</h1>
+        <p class="mt-5 text-2xl text-gray-600">Best Place To Order Your Electronic Product.</p>
+        <div class="flex">
+          <input type="text" placeholder="Search For Product"
+            class="my-6 px-3 py-3 w-full sm:w-3/6 border border-green-600 rounded-l-xl">
+          <button class="bg-green-600 rounded-r-xl my-6 px-3 py-3 text-gray-50">Search</button>
+        </div>
+      </div>
+      <div class="hidden lg:block -mt-12">
+        <img src="assets/yourpic.png" alt="">
+      </div>
+    </div>
+    <h1 class="p-6 text-3xl font-bold">Most Popular Product</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 p-6 gap-4">
+      <div class="grid grid-cols-2 justify-center justify-items-center items-center bg-gray-100 px-4 py-2 rounded-xl">
+        <div>
+          <h1 class="font-bold text-2x">Phone</h1>
+          <p class="text-gray-400 mt-2">Start From</p>
+          <p class="text-red-600">Rp. 1.200.000</p>
+        </div>
+        <div><img src="assets/phone.png"></div>
+      </div>
+      <div class="grid grid-cols-2 justify-center justify-items-center items-center bg-gray-100 px-4 py-2 rounded-xl">
+        <div>
+          <h1 class="font-bold text-2x">Mouse</h1>
+          <p class="text-gray-400 mt-2">Start From</p>
+          <p class="text-red-600">Rp. 120.000</p>
+        </div>
+        <div><img src="assets/mouse.png"></div>
+      </div>
+      <div class="grid grid-cols-2 justify-center justify-items-center items-center bg-gray-100 px-4 py-2 rounded-xl">
+        <div>
+          <h1 class="font-bold text-2x">Laptop</h1>
+          <p class="text-gray-400 mt-2">Start From</p>
+          <p class="text-red-600">Rp. 12.000.000</p>
+        </div>
+        <div><img src="assets/laptop.png"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="block lg:hidden bg-gray-700 text-gray-50 mt-5">
+    <div class="container mx-auto px-6 py-3 ">
+      <div class="grid grid-cols-1 py-8 px-6">
+        <ul class="grid grid-flow-row">
+          <li class="text-xl font-bold">Sarunk</li>
+          <li class="my-2"><a href="#" class="text-gray-400 hover:text-gray-300">Home</a></li>
+          <li class="my-2"><a href="#" class="text-gray-400 hover:text-gray-300">About</a></li>
+          <li class="my-2"><a href="#" class="text-gray-400 hover:text-gray-300">Pricing</a></li>
+          <li class="my-2"><a href="#" class="text-gray-400 hover:text-gray-300">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
