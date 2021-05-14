@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss-cli@latest build src/tailwind.css -o dist/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarunk21/tailwind-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarunk21/tailwind-landing-page/issues"
+  },
+  "homepage": "https://github.com/sarunk21/tailwind-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+  }
+}
